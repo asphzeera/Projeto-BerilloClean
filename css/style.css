@@ -238,15 +238,25 @@ section.Serviços{
 .serviços{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1340px;
     margin: auto;
     gap: 100px;
     justify-content: center;
+    align-items: center;
 }
 
 .serviços_text{
-    position: absolute;
+    position: relative;
+    transition: all 200ms ease-in-out;
     z-index: 1;
+}
+
+.serviços_text h1{
+    font-size: 90px;
+}
+
+.serviços_text:hover{
+
+    transform:scale(1.5);
 }
 
 .serviços-single{
@@ -254,7 +264,7 @@ section.Serviços{
     background-size: cover;
     width: fit-content;
     border-radius: 28px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .serviços-block{
