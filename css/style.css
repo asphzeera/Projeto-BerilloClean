@@ -245,12 +245,12 @@ section.Serviços{
 }
 
 .serviços-single{
-    max-width: 300px;
     background-color: blue;
 }
 
 .serviços-block{
     margin: 10px;
+    padding: 30px;
     background-color: red;
 }
 
