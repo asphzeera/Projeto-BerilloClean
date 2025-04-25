@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Isso ajuda a distribuir os elementos */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 15px 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.226); 
+}
+
+.header_btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1BAFBF;
+    font-weight: 600;
+    margin-left: auto; /* Isso empurra o botão para a direita */
+    white-space: nowrap; /* Evita quebrar o texto */
+}
+
+.header_btn:hover{
+    background-color: #117E89;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.header_btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.header_dropout{
+    display: hidden;
+}
+
+.header_dropout i{
+    display: none;
+    font-size: 30px;
+}
+
+.header_dropout a{
+    display: none;
+}
+
+.header_dropout:hover a{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #1BAFBF;
+}
+
+
+.sections{
+    margin: auto;
+    text-align: center;
+}
+
+.sections a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 450;
+    font-size: 20px;
+    margin: 55px;
+}
+
+.sections a:hover{
+    color: #117E89;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+section.Home{
+    background-image: url(/assets/kai-pilger-7YwWjgS7aJs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.home{
+    max-width: 1800px;
+    margin: auto;    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home_text{
+    max-width: 650px;
+    text-align: left;
+}
+
+.home_text h1{
+    font-size: 36px;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.home_text p{
+    background-color: #1BAFBF;
+    padding: 40px;
+    font-size: 36px;
+    color: white;
+    border-radius: 14px;
+    font-weight: bold;
+}
+
+.home_preço{
+    text-align: center;
+    width: fit-content;
+    font-size: 36px;
+    color: white;
+}
+
+.home_circle:hover{
+    background-color: #117E89;
+    color: white;
+    transition: 0.5s;
+}
+
+.home_circle{
+    background-color: #C4DDF2;
+    font-size: 70px;
+    width: auto;
+    border-radius: 100%;
+    padding: 70px 25px;
+    color: #1BAFBF;
+}
+
+section.Sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.sobre{
+    max-width: 1345px;
+    margin: auto;
+}
+
+.sobre_text{
+    text-align: center;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.226);
+}
+
+.sobre_text h1{
+    font-size: 40px;
+    color: #000000c7;
+}
+
+.sobre_text p{
+    font-size: 25px;
+    color: #000000c7;
+}
+
+.sobre_caracteristicas{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+    margin: auto;
+}
+
+.caracteristica_single{
+    margin: 20px;
+    padding: 60px 40px;
+    background-color: #51D3D3;
+    width: 29%;
+    border-radius: 30px;
+    transition: all 200ms ease-in-out;
+}
+
+.caracteristica_single:hover{
+    transform: scale(1.1);
+}
+
+
+
+.caracteristica_single h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 460;
+}
+
+.caracteristica_single p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.caracteristica_single i{
+    color: #1BAFBF;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+section.Serviços{ 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    height: auto;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviços_text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.serviços_text{
+    font-size: 35px;
+    color: #000000c7;
+    padding: 20px; 
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.226);
+}
+
+.linha{
+    align-items: center;
+    border-bottom: 6px solid #1BAFBF;
+    width: 45px;
+}
+.serviços{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1340px;
+    margin: auto;
+    gap: 100px;
+}
+
+.serviço_single{
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.226);
+    color: #1BAFBF;
+
+    transition: all 200ms ease-in-out;
+}
+
+.serviço_single:hover{
+    background-color: #1BAFBF;
+    color: white;
+    transition: 0.4s;
+    scale: 1.1;
+
+}
+
+.serviço_single h1{
+    font-size: 50px;
+    margin-bottom: -30px;
+    margin-top: 20px;
+    margin-left: 48px;
+}
+
+.image img{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    padding: 40px 50px;
+}
+
+section.Localização{
+    background-color: #1BAFBF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+}
+
+.maps{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+    
+.maps iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.maps_text{
+    background-color: #117E89;
+    color: white;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.226);
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.contato{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #1F98A6;
+}
+
+.contato h1{.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+    color: white;
+    font-size: 25px;
+    width: 33%;
+}
+
+.contato img{
+    width: 350px;
+    height: auto;
+}
+
+@media screen and (max-width: 1500px){
+    .sections{
+        display: none;
+    }   
+    .header{
+        gap: 40px;
+        justify-content: space-around;
+    }
+    .header_dropout{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Header */
+    .header {
+        padding: 15px;
+    }
+    
+    .header_btn {
+        padding: 8px 15px;
+        font-size: 16px;
+        margin-left: 0; /* Remove a margem automática em mobile */
+        order: 3; /* Coloca o botão após o menu hamburguer */
+        width: auto; /* Largura automática baseada no conteúdo */
+        display: none;
+    }
+    
+    .header_dropout i {
+        display: block;
+        color: #1BAFBF;
+    }
+    
+    .dropout-content {
+        display: none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 10px;
+    }
+    
+    .dropout-content a {
+        display: block;
+        padding: 12px 16px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .header_dropout:hover .dropout-content {
+        display: block;
+    }
+    
+    /* Home Section */
+    section.Home {
+        height: auto;
+        padding: 100px 20px 50px;
+        text-align: center;
+    }
+    
+    .home {
+        flex-direction: column;
+    }
+    
+    .home_text {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    .home_text h1 {
+        font-size: 28px;
+    }
+    
+    .home_text p {
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    .home_preço h1 {
+        font-size: 24px;
+    }
+    
+    .home_circle {
+        padding: 40px 15px;
+        font-size: 40px;
+    }
+    
+    /* Sobre Section */
+    .sobre_text {
+        padding: 20px;
+        margin-left: 0;
+    }
+    
+    .sobre_text h1 {
+        font-size: 28px;
+    }
+    
+    .sobre_text p {
+        font-size: 18px;
+    }
+    
+    .sobre_caracteristicas {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .caracteristica_single {
+        width: 80%;
+        padding: 30px 20px;
+        margin: 10px 0;
+    }
+    
+    .caracteristica_single h1 {
+        font-size: 24px;
+    }
+    
+    .caracteristica_single p {
+        font-size: 16px;
+    }
+    
+    /* Serviços Section */
+    .serviços {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .serviço_single {
+        width: 90%;
+    }
+    
+    .serviço_single h1 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    
+    .image img {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    
+    /* Localização Section */
+    .localização {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .maps {
+        width: 100%;
+    }
+    
+    .maps_text {
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    /* Contato Section */
+    .contato {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    
+    .contato h1 {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .contato img {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo a {
+        font-size: 24px;
+    }
+    
+    .home_text h1 {
+        font-size: 24px;
+    }
+    
+    .home_text p {
+        font-size: 18px;
+    }
+    
+    .serviços_text h1 {
+        font-size: 28px;
+    }
+    
+    .caracteristica_single {
+        width: 90%;
+    }
+}
+
