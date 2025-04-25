@@ -207,10 +207,6 @@ section.Sobre{
     transform: scale(1.1);
 }
 
-#link_lavar{
-    cursor: move;
-}
-
 .caracteristica_single h1{
     color: white;
     font-size: 32px;
