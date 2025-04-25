@@ -245,6 +245,7 @@ section.Serviços{
 }
 
 .serviços_text{
+    position: absolute;
     z-index: 1;
 }
 
