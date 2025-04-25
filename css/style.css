@@ -244,8 +244,16 @@ section.Serviços{
     justify-content: center;
 }
 
+.serviços_text{
+    z-index: 1;
+}
+
 .serviços-single{
-    background-color: blue;
+    background-image: url(/assets/wesley-tingey-9-OCsKoyQlk-unsplash.jpg);
+    background-size: cover;
+    width: fit-content;
+    border-radius: 28px;
+    z-index: 2;
 }
 
 .serviços-block{
@@ -254,7 +262,6 @@ section.Serviços{
     width: 440px;
     height: 280px;
     border-radius: 28px;
-    background-color: red;
 }
 
 .serviços-block h1{
