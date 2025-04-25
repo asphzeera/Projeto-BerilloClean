@@ -241,8 +241,22 @@ section.Serviços{
     max-width: 1340px;
     margin: auto;
     gap: 100px;
+    justify-content: center;
 }
 
+.serviços-single{
+    max-width: 300px;
+    background-color: blue;
+}
+
+.serviços-block{
+    margin: 10px;
+    background-color: red;
+}
+
+.serviços-block h1{
+    margin-bottom: 10px;
+}
 
 section.Localização{
     background-color: #1BAFBF;
