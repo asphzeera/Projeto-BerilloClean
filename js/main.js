@@ -7,7 +7,7 @@ document.getElementById('mobile-menu-button').addEventListener('click', function
     }
 });
 
-// Como fazer uma janela em Java Script, espero que isso me sirva em algum outro dia
+// Como fazer uma janela em Java Script, espero que isso me sirva em algum
 
 const windowElement = document.getElementById('link_lavar');
 
