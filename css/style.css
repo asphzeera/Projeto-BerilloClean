@@ -235,26 +235,6 @@ section.Serviços{
     justify-content: center;
 }
 
-.serviços_text{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-.serviços_text{
-    font-size: 35px;
-    color: #000000c7;
-    padding: 20px; 
-    border-radius: 30px;
-    width: 100%;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.226);
-}
-
-.linha{
-    align-items: center;
-    border-bottom: 6px solid #1BAFBF;
-    width: 45px;
-}
 .serviços{
     display: flex;
     flex-wrap: wrap;
@@ -263,37 +243,6 @@ section.Serviços{
     gap: 100px;
 }
 
-.serviço_single{
-    background-color: white;
-    border-radius: 25px;
-    margin: auto;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.226);
-    color: #1BAFBF;
-
-    transition: all 200ms ease-in-out;
-}
-
-.serviço_single:hover{
-    background-color: #1BAFBF;
-    color: white;
-    transition: 0.4s;
-    scale: 1.1;
-
-}
-
-.serviço_single h1{
-    font-size: 50px;
-    margin-bottom: -30px;
-    margin-top: 20px;
-    margin-left: 48px;
-}
-
-.image img{
-    width: 500px;
-    height: 600px;
-    object-fit: cover;
-    padding: 40px 50px;
-}
 
 section.Localização{
     background-color: #1BAFBF;
