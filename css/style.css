@@ -249,15 +249,24 @@ section.Serviços{
 }
 
 .serviços-block{
-    margin: 10px;
+    margin: 25px;
     padding: 30px;
-    width: 400px;
-    height: 200px;
+    width: 440px;
+    height: 280px;
+    border-radius: 28px;
     background-color: red;
 }
 
 .serviços-block h1{
-    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.serviços-block h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #00525B;
 }
 
 section.Localização{
