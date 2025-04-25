@@ -207,7 +207,7 @@ section.Sobre{
     transform: scale(1.1);
 }
 
-.link_lavar{
+#link_lavar{
     position: absolute;
     width: 300px;
     height: 200px;
