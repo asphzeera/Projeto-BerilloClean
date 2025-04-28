@@ -548,5 +548,12 @@ section.Localização{
     .caracteristica_single {
         width: 90%;
     }
+
+    .sobre_text{
+        margin: 30px;
+    }
+    .home_circle h1{
+        font-size: 45px;
+    }
 }
 
