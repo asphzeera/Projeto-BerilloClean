@@ -266,6 +266,8 @@ section.Serviços{
     width: fit-content;
     border-radius: 28px;
     z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .serviços-block{
