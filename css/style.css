@@ -146,7 +146,6 @@ section.Home{
 .home_circle:hover{
     background-color: #117E89;
     color: white;
-    transition: 0.5s;
 }
 
 .home_circle{
@@ -156,6 +155,7 @@ section.Home{
     border-radius: 100%;
     padding: 70px 25px;
     color: #1BAFBF;
+    transition: all 200ms ease-in-out;
 }
 
 section.Sobre{
