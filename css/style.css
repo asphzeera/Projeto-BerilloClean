@@ -274,9 +274,9 @@ section.Serviços{
     margin: 25px;
     padding: 30px;
     width: 375px;
-    height: 280px;
     border-radius: 28px;
-    background-color: red;
+    border: 3px solid white;
+    transition: all 200ms ease-in-out;
 }
 
 .serviços-block h1{
@@ -289,6 +289,10 @@ section.Serviços{
     font-size: 40px;
     font-weight: bold;
     color: #00525B;
+}
+
+.serviços-block:hover{
+    transform: scale(1.05);
 }
 
 
