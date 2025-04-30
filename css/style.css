@@ -253,11 +253,7 @@ section.Serviços{
 
 .serviços_text h1{
     font-size: 90px;
-}
-
-.serviços_text:hover{
-
-    transform:scale(1.5);
+    color: #1BAFBF;
 }
 
 .serviços-single{
