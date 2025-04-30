@@ -268,12 +268,13 @@ section.Serviços{
     z-index: 3;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .serviços-block{
     margin: 25px;
     padding: 30px;
-    width: 440px;
+    width: 375px;
     height: 280px;
     border-radius: 28px;
 }
