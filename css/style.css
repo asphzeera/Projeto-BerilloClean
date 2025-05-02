@@ -293,6 +293,63 @@ section.Serviços{
 
 
 
+.Avaliações {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.avaliação {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.avaliação_single {
+    background: white;
+    border-radius: 28px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.avaliação_single:hover {
+    transform: translateY(-5px);
+}
+
+.avaliação_single img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px;
+    display: block;
+    border: 3px solid #f8f8f8;
+}
+
+.avaliação_single h1 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    color: #333;
+    font-weight: 600;
+}
+
+.avaliação_stars {
+    margin: 0 auto 15px;
+    color: #FFD700; /* Cor amarela para as estrelas */
+    font-size: 20px;
+}
+
+.avaliação_single p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
 section.Localização{
     background-color: #1BAFBF;
     display: flex;
