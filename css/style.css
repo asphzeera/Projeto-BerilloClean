@@ -542,7 +542,6 @@ section.Localização{
     /* Sobre Section */
     .sobre_text {
         padding: 20px;
-        margin-left: 0;
     }
     
     .sobre_text h1 {
@@ -660,6 +659,12 @@ section.Localização{
 
     .serviços-block h2{
         font-size: 25px;
+    }
+
+    .avaliação_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
