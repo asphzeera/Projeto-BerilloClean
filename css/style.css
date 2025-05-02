@@ -653,8 +653,8 @@ section.Localização{
         font-size: 45px;
     }
 
-    .serviço_single{
-        margin: auto;
+    .serviços-single{
+        width: 80%;
     }
 
     .serviços-block h1{
