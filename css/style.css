@@ -599,6 +599,10 @@ section.Localização{
         height: auto;
         padding: 20px;
     }
+
+    .avaliação_text{
+        text-align: center;
+    }
     
     /* Localização Section */
     .localização {
