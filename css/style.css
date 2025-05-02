@@ -662,9 +662,18 @@ section.Localização{
     }
 
     .avaliação_text{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        max-width: 75%;
+        text-align: center;
     }
+
+    .avaliação_text h1{
+        font-size: 30px;
+    }
+
+    .avaliação_text p{
+        font-size: 20px;
+    }
+
+    
 }
 
