@@ -639,7 +639,7 @@ section.Localização{
     }
     
     .serviços_text h1 {
-        font-size: 28px;
+        font-size: 35px;
     }
     
     .caracteristica_single {
@@ -651,6 +651,10 @@ section.Localização{
     }
     .home_circle h1{
         font-size: 45px;
+    }
+
+    .serviço_single{
+        margin: auto;
     }
 
     .serviços-block h1{
@@ -674,6 +678,6 @@ section.Localização{
         font-size: 20px;
     }
 
-    
+
 }
 
