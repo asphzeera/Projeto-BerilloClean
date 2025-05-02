@@ -8,6 +8,8 @@
 body{
     background-image: url(/assets/g33078-1.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .header{
@@ -179,6 +181,7 @@ section.Sobre{
     margin: 30px;
     padding: 50px;
     border-radius: 30px;
+    background-color: white;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.226);
 }
 
