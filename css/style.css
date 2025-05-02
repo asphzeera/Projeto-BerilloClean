@@ -645,7 +645,28 @@ section.Localização{
     .home_text p {
         font-size: 18px;
     }
+
+    .home_circle{
+        justify-items: center;
+    }
     
+    .home_preço{
+        justify-items: center;
+    }
+
+    .home_preço h1{
+        font-size: 45px;
+        width: fit-content;
+    }
+    
+    .home_circle {
+        width: fit-content;
+    }
+
+    .home_circle h1{
+        font-size: 40px;
+    }
+
     .serviços_text h1 {
         font-size: 35px;
     }
