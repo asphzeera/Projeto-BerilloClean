@@ -531,17 +531,20 @@ section.Localização{
     }
 
     .home_circle{
-        text-align: center;
+        justify-items: center;
     }
     
+    .home_preço{
+        justify-items: center;
+    }
+
     .home_preço h1{
         font-size: 80px;
         width: fit-content;
     }
     
     .home_circle {
-        padding: 15px;
-        font-size: 40px;
+        width: fit-content;
     }
     
     /* Sobre Section */
