@@ -300,6 +300,7 @@ section.Avaliações_MASTER{
     padding: 50px 0;
 }
 
+
 .avaliação_text{
     margin: 0 auto;
     align-items: center;
@@ -327,11 +328,13 @@ section.Avaliações_MASTER{
     border-radius: 20px;
 }
 
+
 .avaliação {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    z-index: 10;
 }
 
 .avaliação_single {
