@@ -298,6 +298,7 @@ section.Avaliações_MASTER{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .avaliação_text h1{
@@ -313,7 +314,7 @@ section.Avaliações_MASTER{
 .Avaliações {
     padding: 20px;
     max-width: 1200px;
-    margin: 200px auto;
+    margin: 60px auto;
     background-color: #00525B;
     border-radius: 20px;
 }
@@ -375,6 +376,11 @@ section.Localização{
     align-items: center;
     justify-content: center;
     padding: 4%;
+}
+
+.localização_text{
+    color: white;
+    font-size: 28px;
 }
 
 .maps{
