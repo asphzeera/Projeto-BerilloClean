@@ -429,22 +429,18 @@ section.Localização{
     background-color: #1F98A6;
 }
 
-.contato h1{.dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
+
+.contato h1{
     color: white;
     font-size: 25px;
-    width: 33%;
+    width: fit-content;
 }
 
 .contato img{
     width: 350px;
     height: auto;
 }
+
 
 
 
@@ -621,12 +617,12 @@ section.Localização{
     
     /* Contato Section */
     .contato {
+        display: grid;
         flex-direction: column;
         gap: 30px;
         padding: 30px 20px;
         text-align: center;
     }
-    
     .contato h1 {
         width: 100%;
         font-size: 18px;
