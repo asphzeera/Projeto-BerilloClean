@@ -286,6 +286,11 @@ section.Serviços{
     color: #00525B;
 }
 
+section.Avaliações_MASTER{
+    background-color: #1BAFBF;
+    margin: 0 auto;
+    padding: 50px 0;
+}
 
 .Avaliações {
     padding: 20px;
