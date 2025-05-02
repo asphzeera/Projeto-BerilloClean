@@ -292,6 +292,24 @@ section.Avaliações_MASTER{
     padding: 50px 0;
 }
 
+.avaliação_text{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avaliação_text h1{
+    font-size: 40px;
+    color: white;
+}
+
+.avaliação_text p{
+    color: whitesmoke;
+    font-size: 32px;
+}
+
 .Avaliações {
     padding: 20px;
     max-width: 1200px;
