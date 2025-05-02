@@ -622,6 +622,7 @@ section.Localização{
         gap: 30px;
         padding: 30px 20px;
         text-align: center;
+        justify-items: center;
     }
     .contato h1 {
         width: 100%;
