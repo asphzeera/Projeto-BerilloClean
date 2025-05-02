@@ -271,8 +271,7 @@ section.Serviços{
     padding: 30px;
     width: 375px;
     border-radius: 28px;
-    border: 3px solid white;
-    transition: all 200ms ease-in-out;
+    border: 3px solid white
 }
 
 .serviços-block h1{
@@ -287,16 +286,13 @@ section.Serviços{
     color: #00525B;
 }
 
-.serviços-block:hover{
-    transform: scale(1.05);
-}
-
-
 
 .Avaliações {
     padding: 20px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 200px auto;
+    background-color: #00525B;
+    border-radius: 20px;
 }
 
 .avaliação {
