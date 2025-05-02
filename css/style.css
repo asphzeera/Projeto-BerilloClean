@@ -653,5 +653,13 @@ section.Localização{
     .home_circle h1{
         font-size: 45px;
     }
+
+    .serviços-block h1{
+        font-size: 30px;
+    }
+
+    .serviços-block h2{
+        font-size: 25px;
+    }
 }
 
