@@ -86,7 +86,7 @@ body{
     display: inline-block;
     text-align: right;
     margin-top: 11px;
-    margin-right: 5px;
+    margin-left: auto;
     font-size: 25px;
     color: grey;
     transition: all 200ms ease-in-out;
