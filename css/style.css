@@ -82,6 +82,20 @@ body{
     color: #1BAFBF;
 }
 
+.redes i{
+    display: inline-block;
+    text-align: right;
+    margin-top: 11px;
+    margin-right: 5px;
+    font-size: 18px;
+    color: grey;
+}
+
+.redes i:hover{
+    color: #e87532;
+    transition: 0.3s;
+    cursor: pointer;
+}
 
 .sections{
     margin: auto;
@@ -441,9 +455,23 @@ section.Localização{
     height: auto;
 }
 
+.whats_btn{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+  z-index:100;
+}
 
-
-
+.my-float{
+    margin-top: 14px ;
+}
 @media screen and (max-width: 1500px){
     .sections{
         display: none;
