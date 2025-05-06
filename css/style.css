@@ -87,13 +87,13 @@ body{
     text-align: right;
     margin-top: 11px;
     margin-right: 5px;
-    font-size: 18px;
+    font-size: 25px;
     color: grey;
+    transition: all 200ms ease-in-out;
 }
 
 .redes i:hover{
-    color: #e87532;
-    transition: 0.3s;
+    color: #1BAFBF;
     cursor: pointer;
 }
 
