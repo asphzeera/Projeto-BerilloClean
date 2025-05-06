@@ -34,6 +34,7 @@ body{
     border-radius: 20px;
     background-color: #1BAFBF;
     font-weight: 600;
+    margin-left: auto;
     white-space: nowrap; /* Evita quebrar o texto */
 }
 
@@ -79,21 +80,6 @@ body{
     font-size: 30px;
     font-weight: 600;
     color: #1BAFBF;
-}
-
-.redes i{
-    display: inline-block;
-    text-align: right;
-    margin: auto;
-    padding: 0px 30px;
-    font-size: 35px;
-    color: grey;
-    transition: all 200ms ease-in-out;
-}
-
-.redes i:hover{
-    color: #1BAFBF;
-    cursor: pointer;
 }
 
 .sections{
@@ -454,8 +440,10 @@ section.Localização{
     height: auto;
 }
 
+.social_btns{
+    position: fixed;
+}
 .whats_btn{
-	position:fixed;
 	width:60px;
 	height:60px;
 	bottom:40px;
@@ -468,30 +456,28 @@ section.Localização{
   z-index:100;
 }
 .insta_btn{
-	position:fixed;
 	width:60px;
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#25d366;
+	background-color:#ff00ff;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-  z-index:100;
+  z-index:99;
 }
 .facebook_btn{
-	position:fixed;
 	width:60px;
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#25d366;
+	background-color:#001aff;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-  z-index:100;
+  z-index:98;
 }
 
 
