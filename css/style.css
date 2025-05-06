@@ -85,8 +85,8 @@ body{
     display: inline-block;
     text-align: right;
     margin: auto;
-    margin-right: 15px;
-    font-size: 25px;
+    padding: 0px 30px;
+    font-size: 35px;
     color: grey;
     transition: all 200ms ease-in-out;
 }
