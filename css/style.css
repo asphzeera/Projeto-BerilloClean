@@ -444,6 +444,9 @@ section.Localização{
     display: grid;
     z-index:101;
     position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
     width: fit-content;
 }
 
@@ -491,7 +494,7 @@ section.Localização{
 }
 
 .my-float{
-    margin-top: 14px ;
+    margin-top: 15px ;
 }
 @media screen and (max-width: 1500px){
     .sections{
