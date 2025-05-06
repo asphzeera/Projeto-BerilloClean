@@ -441,9 +441,17 @@ section.Localização{
 }
 
 .social_btns{
+    display: grid;
+    z-index:101;
     position: fixed;
+    width: fit-content;
 }
-.whats_btn{
+
+.social_btn{
+    margin-bottom: 15px;
+}
+
+#whats_btn{
 	width:60px;
 	height:60px;
 	bottom:40px;
@@ -455,7 +463,8 @@ section.Localização{
   font-size:30px;
   z-index:100;
 }
-.insta_btn{
+
+#insta_btn{
 	width:60px;
 	height:60px;
 	bottom:40px;
@@ -467,7 +476,8 @@ section.Localização{
   font-size:30px;
   z-index:99;
 }
-.facebook_btn{
+
+#facebook_btn{
 	width:60px;
 	height:60px;
 	bottom:40px;
@@ -479,7 +489,6 @@ section.Localização{
   font-size:30px;
   z-index:98;
 }
-
 
 .my-float{
     margin-top: 14px ;
